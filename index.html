@@ -2366,31 +2366,5 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     z-index: 9999;        /* ゲーム画面の最前面に重ねる */
 }
 </style>
-<!-- 🧬 【弱肉捕食♾️ザウラス™️ 専用】DNAコードメニュー（三アイコン廃止・ステルス風） -->
-<div id="dnaMenuContainer" style="position: fixed; top: 10px; left: 15px; z-index: 9999; 
-            background: rgba(20, 24, 30, 0.4); backdrop-filter: blur(4px); padding: 6px 12px; 
-            border: 1px solid rgba(0, 255, 200, 0.2); border-radius: 4px; 
-            font-family: 'Courier New', monospace; min-width: 120px; transition: all 0.3s; box-sizing: border-box;">
-    
-    <!-- タップして展開するステルス文字（三は廃止） -->
-    <div onclick="toggleDnaMenu()" style="cursor: pointer; font-size: 11px; font-weight: bold; color: rgba(0, 255, 200, 0.8); display: flex; justify-content: space-between; align-items: center; letter-spacing: 1px; user-select: none;">
-        <span>🧬 DNAコード</span>
-        <span id="dnaMenuArrow" style="font-size: 9px; margin-left: 6px;">▼</span>
-    </div>
-    
-    <!-- 格納されるメニュー中身 -->
-    <div id="dnaMenuContent" style="display: none; margin-top: 8px; border-top: 1px solid rgba(0, 255, 200, 0.1); padding-top: 6px;">
-        <button onclick="saveGameDna()" style="width: 100%; padding: 5px; background: rgba(0, 255, 200, 0.15); color: #00ffc8; border: 1px solid #00ffc8; border-radius: 3px; cursor: pointer; font-size: 11px; font-weight: bold; margin-bottom: 6px; transition: 0.2s;" onmouseover="this.style.background='rgba(0, 255, 200, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 200, 0.15)'">
-            コードを発行
-        </button>
-        
-        <div style="display: flex; gap: 4px;">
-            <input type="text" id="dnaCodeInput" placeholder="DNAを入力" style="width: 65%; padding: 3px; background: rgba(0,0,0,0.6); border: 1px solid rgba(0, 255, 200, 0.3); border-radius: 3px; color: #fff; font-size: 10px; box-sizing: border-box;">
-            <button onclick="loadGameDna()" style="width: 35%; padding: 3px; background: rgba(33, 150, 243, 0.2); color: #2196F3; border: 1px solid #2196F3; border-radius: 3px; cursor: pointer; font-size: 10px; font-weight: bold; transition: 0.2s; box-sizing: border-box;" onmouseover="this.style.background='rgba(33, 150, 243, 0.4)'" onmouseout="this.style.background='rgba(33, 150, 243, 0.2)'">
-                再開
-            </button>
-        </div>
-    </div>
-</div>
- 
-	</body></html>
+
+ 	</body></html>
